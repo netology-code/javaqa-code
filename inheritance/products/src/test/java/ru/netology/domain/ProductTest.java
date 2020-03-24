@@ -12,4 +12,3 @@ class ProductTest {
     assertEquals(first, second);
   }
 }
-
