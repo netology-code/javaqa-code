@@ -36,4 +36,4 @@
 
 4.2. [x] [Интерфейсы для организации малой связности. Обобщённое программирование (Generics)](interfaces)
 
-4.3. [ ] [Collections Framework. CRUD и тестирование систем, управляющих набором объектов](collections)
+4.3. [x] [Collections Framework. CRUD и тестирование систем, управляющих набором объектов](collections)
