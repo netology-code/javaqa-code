@@ -27,4 +27,12 @@ public class CartManager {
   public void removeById(int id) {
     repository.removeById(id);
   }
+
+  public int sum() {
+    int result = 0;
+    for (PurchaseItem item : getAll()) {
+      result = result + item.getProductPrice() * item.getCount();
+    }
+    return result;
+  }
 }
